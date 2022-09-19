@@ -1,0 +1,12 @@
+create an article project using django. The article project should be a able to store and retrieve articles from the database. below is a list of steps to follow when creating the project.
+i.    create the django project
+ii.   create the app within the django project
+iii.  add app to installed_apps in settings.py
+iv.  migrate your project
+v.   create your super user
+vi.  create your articles models with the following fields : title, content and date_created
+vii. create a view function for the homepage. All articles should be displayed on the homepage template.
+viii. map your function to a url.
+ix. create a second page(view) that will display only the last article added to the database
+
+Attached to this assignment is a github link to the project we worked on in class. Use this as a guide since both projects are similar

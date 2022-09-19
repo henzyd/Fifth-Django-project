@@ -1,0 +1,12 @@
+{% extends 'my_app/articles_folder/parent.html' %}
+
+<!--  -->
+<!--  -->
+{% block article %}
+<h1>Second Page</h1>
+<div class="article">
+  <h2>{{ articles.title }}</h2>
+  <p>{{ articles.contents }}</p>
+  <p>{{ articles.date_created }}</p>
+</div>
+{% endblock article %}
